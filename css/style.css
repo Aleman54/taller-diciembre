@@ -96,3 +96,16 @@ th,td{
 }
 tr:nth-child(odd)
  {background-color: #e99444;}
+
+.fondo-rojo {
+  background-color: rgb(230, 6, 6);
+}
+.fondo-gris {
+  background-color: rgb(51, 53, 45);
+}
+.fondo-amarillo {
+  background-color: rgb(209, 140, 28);
+}
+.fondo-azul {
+  background-color: cornflowerblue;
+}
