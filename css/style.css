@@ -12,9 +12,11 @@ body{
   background: #f1f1f1;
   margin: 0;
   padding: 0;
+  
 }
 ul {
   list-style: none;
+
   
 }
 
@@ -62,3 +64,35 @@ a:hover {
 
 
 }
+.menu-inicial 
+{
+  text-align: center;
+}
+.parrafo{
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: justify;
+  font-size: 30px;
+  font-family:'Teko', sans-serif;
+}
+.titulo{
+  padding-left: 100px;
+  color: rgb(13, 101, 136);
+  font-family: 'Satisfy', cursive;;
+  
+}
+table,tr,th,td{
+  border: 1px solid #000; 
+  text-align: center;
+  
+
+}
+table{
+  display: inline-block;
+  border-collapse: collapse;
+}
+th,td{
+  padding:  50px;
+}
+tr:nth-child(odd)
+ {background-color: #e99444;}
