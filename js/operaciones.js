@@ -3,9 +3,9 @@ function HacerOperacion() {
   let segundoNumero =Number(document.getElementById ("numero2").value)
   let listaOperaciones =document.getElementById ("lista")
   let tipoOperacion = listaOperaciones.options[listaOperaciones.selectedIndex].value
-  let resultado= 0
+  let resultado= 7
   ////////////////////////////////////
-  let calificacion=-14
+  let calificacion=7
   if (calificacion ===10 || calificacion === 9) {
     console.log("Excelente")
   } 
@@ -33,3 +33,5 @@ function calculaCalificacion (){
     }
 
 }
+/////////////////////////////
+function 
