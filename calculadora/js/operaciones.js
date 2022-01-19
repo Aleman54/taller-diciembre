@@ -106,8 +106,13 @@ function init (){
       limpiar();
   }
   igual.onclick = function(e){
+    if (resultado.textContent !== "0" || operacion !== "/"){
       operandob = resultado.textContent;
       resolver();
+
+    } else {
+      alert("No puedes dividir entre cero")
+    }
   }
   function limpiar() {
     resultado.textContent = "";
@@ -136,5 +141,18 @@ function init (){
     }
     resetear();
     resultado.textContent = res;
+  
+    if(res > 0){
+      alert("El resultado es positivo")
+    }
+    else if (res < 0){
+      alert("El resultado es negativo")
+    }
+    if (res === 2022){
+      alert("Feliz año")
+    }
+    if (res === 0){
+      alert("El resultado es cero")
+    }
   }
 }
