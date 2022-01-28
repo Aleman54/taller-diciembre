@@ -4,7 +4,7 @@ var operacion;
 
 function init (){
   var resultado = document.getElementById("resultado");
-  var reset = document.getElementById("reset");
+  var botonDeReset = document.getElementById("reset");
   var suma = document.getElementById("suma");
   var resta = document.getElementById("resta");
   var multiplicacion = document.getElementById("multiplicacion");
@@ -82,7 +82,7 @@ function init (){
   cero.onclick = function(e){
       resultado.textContent = resultado.textContent  + "0";
   }
-  reset.onclick = function(e){
+  botonDeReset.onclick = function(e){
       resetear();
   }
   suma.onclick = function(e){
@@ -122,6 +122,8 @@ function init (){
     operandoa = 0;
     operandob = 0;
     operacion = "";
+    resultado.style.backgroundColor = "white";
+
   }
   function resolver() {
     var res = 0;
@@ -143,9 +145,11 @@ function init (){
     resultado.textContent = res;
   
     if(res > 0){
+      resultado.style.backgroundColor = "green" 
       alert("El resultado es positivo")
     }
     else if (res < 0){
+      resultado.style.backgroundColor = "red"
       alert("El resultado es negativo")
     }
     if (res === 2022){
