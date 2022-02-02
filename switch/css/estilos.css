@@ -1,0 +1,13 @@
+.bandera-mini {
+    width: 425px;
+    height: 275px;
+
+}
+body {
+    background-color: rgb(3, 44, 51);
+}
+div {
+    padding-top: 75px;
+    text-align: center;
+    padding-block: 75px;
+}
