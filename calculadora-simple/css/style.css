@@ -1,0 +1,25 @@
+.primer-div{
+  margin-top: 200px;
+
+}
+.segundo-div{
+
+  margin-top: 75px;
+}
+span {
+  font-size: 24px;
+}
+.boton-resultado{
+  background-color: rgb(11, 68, 105);
+  color: white;
+  font-size: 50px;
+  border-radius: 20px;
+  padding-top:10px ;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom: 10px;
+  border: 10px solid rgb(72, 185, 27);
+  margin-left: 30px;
+
+
+}
