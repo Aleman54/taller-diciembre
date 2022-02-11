@@ -25,13 +25,7 @@ function obtenerCapital(inicialesBandera) {
  * para obtener su capital.
  * 
  */
-  var inicialesBandera = COL
-  var inicialesBandera = BRA 
-  var inicialesBandera = CHI 
-  var inicialesBandera = JAP
-  var inicialesBandera = MEX 
-  var inicialesBandera = CHINA
-function obtenerCapitalMejorada(inicialesBandera) {
+  function obtenerCapitalMejorada(inicialesBandera) {
   switch (inicialesBandera) {
     case "COL": 
       console.log('La capital de Colombia es Medellin')
@@ -50,7 +44,9 @@ function obtenerCapitalMejorada(inicialesBandera) {
       break;
     case "CHINA":
       console.log('La capital de China es Pekin')
-
+      break;
+    default: 
+      console.log('Capital no encontrada')
   }
 
 }

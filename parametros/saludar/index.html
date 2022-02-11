@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="js/index.js"></script>
+  <title>Paso de Parametros</title>
+  <style>
+    .contenedor {
+      background: burlywood;
+      width: 500px;
+      padding-right: 0px;
+      padding-bottom: 40px;
+      padding-top: 30px;
+    }
+    .saludo {
+      background: green;
+      color: hotpink;
+      width: 500px;
+      height: 30px;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <div class="contenedor">
+    Introduce tu nombre: <input type="text" id="variable" />
+    <button onclick="saludar(document.getElementById('variable').value)">
+      Saludar!
+    </button>
+  </div>
+  <div class="saludo" id="caja-saludo">
+  </div>
+</body>
+</html>

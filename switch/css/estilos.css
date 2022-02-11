@@ -6,8 +6,7 @@
 body {
     background-color: rgb(3, 44, 51);
 }
-div {
-    padding-top: 75px;
+.fila-paises {
+    margin-top: 300px;
     text-align: center;
-    padding-block: 75px;
 }
