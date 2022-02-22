@@ -9,7 +9,7 @@ function saludar(n,edad,pais) {
   } 
   else {
     caja.style.backgroundColor = 'purple'
-  }
+  } 
   
 }
 // saludar('Daniel');
